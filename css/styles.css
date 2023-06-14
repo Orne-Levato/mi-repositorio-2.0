@@ -1,3 +1,30 @@
-
+/*Index*/
+.index {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.index .contenedor2 {
+  background-color: rgb(254, 197, 63);
+  height: 100px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.index .carousel-slide {
+  height: 800px;
+  width: 1000px;
+  margin: 20px;
+}
+.index .coctel-img {
+  margin: 20px;
+  height: 350px;
+  width: 300px;
+}
+.index .clearfix {
+  display: flex;
+  margin: 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */
