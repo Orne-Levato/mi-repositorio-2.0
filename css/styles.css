@@ -1,31 +1,74 @@
 /*Index*/
-.index {
-  
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.index .contenedor2 {
-  background-color: rgb(254, 197, 63);
+.contenedor2 {
+  background-color: rgb(255, 174, 0);
   height: 100px;
   width: 1300px;
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
-.index .carousel-slide {
+
+.home .carousel-slide {
   height: 800px;
   width: 1000px;
   margin: 20px;
 }
-.index .coctel-img {
+.home .clearfix {
+  display: flex;
+  margin: 20px;
+}
+.home .clearfix .coctel-img {
   margin: 20px;
   height: 350px;
   width: 300px;
 }
-.index .clearfix {
+
+/* v.i.p*/
+.contenedor5 {
+  background-color: rgb(143, 158, 236);
+  height: 100px;
+  width: 1300px;
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content3 {
+  margin: 40px;
+}
+
+.contenedor4 {
+  justify-content: center;
+  background-color: rgb(255, 230, 155);
+  margin: 40px;
+  width: 800px;
+  padding: 20px;
+}
+
+/* nosotros */
+.form-floating {
   margin: 20px;
+}
+
+.card {
+  margin: 30px;
+  display: flex;
+}
+
+.contenedor6 {
+  background-color: rgb(255, 199, 134);
+  margin: 30px;
+  padding: 10px;
+}
+
+/*menu*/
+.contenedor7 {
+  background-color: rgb(254, 197, 63);
+  height: 100px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
