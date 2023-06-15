@@ -73,4 +73,20 @@
   padding: 20px;
 }
 
+.titulo {
+  color: rgb(255, 228, 131);
+  font-size: italic;
+}
+
+/*reservaciones*/
+.contenedor9 {
+  background-color: rgb(255, 199, 134);
+  height: 500px;
+  width: 800px;
+  display: flex;
+  padding: 20px;
+  margin: 50px;
+  margin-left: 250px;
+}
+
 /*# sourceMappingURL=styles.css.map */

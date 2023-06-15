@@ -11,7 +11,17 @@
     <link rel="shortcut icon" href="cocteles.png">
     
 </head>
-<body>
+<body class="reservacion">
+
+  <style>
+    body {
+      background-image: url(WhatsApp\ Image\ 2023-06-14\ at\ 1.04.29\ PM.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+
     <div class="contenedor2">
         <nav class="navbar bg-body-tertiary">
           <div class="container">
@@ -28,60 +38,63 @@
            </h2>
           </div> 
     
+
+          <div class="contenedor9">
+
           <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
-              <label for="validationCustom01" class="form-label">First name</label>
+              <label for="validationCustom01" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
               <div class="valid-feedback">
-                Looks good!
+                
               </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Last name</label>
+              <label for="validationCustom02" class="form-label">Apellido</label>
               <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
               <div class="valid-feedback">
-                Looks good!
+                
               </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label">Username</label>
+              <label for="validationCustomUsername" class="form-label">Email</label>
               <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                 <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                 <div class="invalid-feedback">
-                  Please choose a username.
+                  por favor eliga un email.
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">City</label>
+              <label for="validationCustom03" class="form-label">Ciudad</label>
               <input type="text" class="form-control" id="validationCustom03" required>
               <div class="invalid-feedback">
-                Please provide a valid city.
+                Por favor eliga una localidad
               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">State</label>
+              <label for="validationCustom04" class="form-label">Ocacion</label>
               <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
+                <option selected disabled value="">eliga...</option>
+                <option>cumpleaños </option> <option> salida casual </option> <option> aniversario </option> <option> Otro </option>
               </select>
               <div class="invalid-feedback">
-                Please select a valid state.
+                por favor seleccione la ocasion
               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Zip</label>
+              <label for="validationCustom05" class="form-label">horario</label>
               <input type="text" class="form-control" id="validationCustom05" required>
               <div class="invalid-feedback">
-                Please provide a valid zip.
+               eliga un horario disponible
               </div>
             </div>
             <div class="col-12">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                 <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
+                  Quiero recibir notificaciones!
                 </label>
                 <div class="invalid-feedback">
                   You must agree before submitting.
@@ -92,6 +105,32 @@
               <button class="btn btn-primary" type="submit">Submit form</button>
             </div>
           </form>
+ 
+        </div>
+
+<script>
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
