@@ -9,12 +9,14 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-   
+    
+    .navbar-brand{
+        transform: rotate(5deg) scale(2);
+       }
 }
 
 .home{ 
-.carousel-slide{
-    height: 800px;
+.carousel-slide{height: 800px;
     width: 1000px;
     margin: 20px;
 }

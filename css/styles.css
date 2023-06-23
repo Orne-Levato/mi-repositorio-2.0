@@ -7,6 +7,9 @@
   justify-content: space-between;
   padding: 20px;
 }
+.contenedor2 .navbar-brand {
+  transform: rotate(5deg) scale(2);
+}
 
 .home .carousel-slide {
   height: 800px;
