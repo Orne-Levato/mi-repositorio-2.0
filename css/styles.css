@@ -2,7 +2,7 @@
 .principal {
   background-color: rgb(255, 196, 68);
   height: 100px;
-  width: 1300px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -21,6 +21,7 @@
   margin: 20px;
   color: rgb(214, 219, 219);
   font-size: calibri;
+  flex-wrap: wrap;
 }
 .home .clearfix .coctel-img {
   margin: 20px;
