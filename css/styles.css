@@ -11,6 +11,22 @@
   transform: rotate(5deg) scale(2);
 }
 
+@media (max-width: 700px) {
+  .principal {
+    flex-direction: column;
+  }
+}
+.titul0 {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  -webkit-text-stroke: 2px orange;
+  color: gold;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2");
+}
+
 .home .carousel-slide {
   height: 800px;
   width: 1000px;
