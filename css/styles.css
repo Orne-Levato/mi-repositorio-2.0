@@ -1,11 +1,11 @@
 /*Index*/
 .principal {
   background-color: rgb(255, 196, 68);
-  height: 100px;
+  height: 10%;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 2%;
 }
 .principal .navbar-brand {
   transform: rotate(5deg) scale(2);
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   padding: 2%;
-  -webkit-text-stroke: 2px rgb(214, 219, 219);
+  -webkit-text-stroke: 2px rgb(255, 157, 37);
   color: gold;
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -57,20 +57,22 @@
 
 .content3 {
   background-color: rgb(185, 231, 233);
-  height: 500px;
-  width: 800px;
+  height: 70%;
+  width: 100%;
   display: flex;
-  padding: 100px;
-  margin: 80px;
-  margin-left: 250px;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5%;
 }
 
 .contenedor4 {
   justify-content: center;
   background-color: rgb(155, 232, 255);
-  margin: 40px;
-  width: 800px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+  margin: 5%;
 }
 
 /* nosotros */
@@ -107,12 +109,10 @@
 /*reservaciones*/
 .contenedor9 {
   background-color: rgb(255, 199, 134);
-  height: 500px;
-  width: 800px;
-  display: flex;
-  padding: 20px;
-  margin: 50px;
-  margin-left: 250px;
+  height: 60%;
+  width: 80%;
+  margin: 10%;
+  padding: 5%;
 }
 
 /*# sourceMappingURL=styles.css.map */
